@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/">
+    <bean id="PostController" class="ru.netology.controller.PostController" autowire="constructor"/>
+    <bean id="PostRepository" class="ru.netology.repository.PostRepository" autowire="constructor"/>
+    <bean id="PostService" class="ru.netology.service.PostService"/>
+</beans>
